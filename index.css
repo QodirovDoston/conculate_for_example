@@ -3,42 +3,50 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(45, 55, 53);
+    background: linear-gradient(hsl(202, 100%, 54%), #000000);
     color: white;
     font-family: sans-serif;
   }
   
   .main {
-    padding: 5px 0;
+    padding: 100px 100px;
     text-align: center;
-  }
-  
-  input {
+    outline: 8px ridge rgba(204, 232, 225, 0.6);
+    border-radius: 2rem;
+    
+}
+
+input {
     display: flex;
     flex-direction: column;
+    
   }
   
   .inputs input {
-    border: none;
+    outline: 8px ridge rgba(79, 172, 238, 0.6);
+    border-radius: 2rem;
     border-radius: 5px;
     padding: 1rem 10rem;
-    outline: none;
     margin-bottom: 10px;
   }
   
   #selectOp {
     margin-bottom: 10px;
     padding: 10px;
-    outline: none;
+    outline: 8px ridge rgba(81, 115, 235, 0.6);
+    border-radius: 10px;
+    cursor: pointer;
   }
   
   #btn {
     border: none;
     background: transparent;
-    color: white;
+    color: rgb(255, 254, 254);
     padding: 10px 20px;
-    border: 2px solid white;
+    border: 2px solid rgb(244, 232, 232);
     margin-top: 10px;
     cursor: pointer;
+    outline: 8px ridge rgba(81, 115, 235, 0.6);
+    border-radius: 10px;
   }
   
